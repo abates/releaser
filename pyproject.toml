@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "releaser"
+version = "0.1.0"
+description = "A tool to help with software release management."
+authors = ["Andrew Bates <abates@omeganetserv.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+GitPython = "^3.1.41"
+PyGithub = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
